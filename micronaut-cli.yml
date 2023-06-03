@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.workflow
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, assertj, camunda-platform7, gradle, http-client, jackson-databind, java, java-application, jdbc-hikari, jetty-server, junit, logback, micronaut-build, openapi, postgres, readme, shade, test-resources, yaml]

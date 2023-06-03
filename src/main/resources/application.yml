@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: micronautCamunda
+datasources:
+  default:
+    driver-class-name: org.postgresql.Driver
+    db-type: postgres
+camunda:
+  admin-user:
+    id: admin
+    password: admin
+  webapps:
+    enabled: true
+  rest:
+    enabled: true
+  generic-properties:
+    properties:
+      initialize-telemetry: true
+  filter:
+    create: All tasks
